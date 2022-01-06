@@ -23,6 +23,7 @@ set nobackup
 set nowritebackup
 set splitright splitbelow
 set autoread
+set autoindent
 set termguicolors
 filetype on
 filetype plugin on

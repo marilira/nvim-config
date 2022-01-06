@@ -41,6 +41,7 @@ nmap oo A<cr>
 
 inoremap kj <esc>
 
+nnoremap <leader>; A;<esc>
 nnoremap <leader>s :w<cr>:source %<cr>
 nnoremap <leader>vc :edit ~\AppData\Local\nvim\coc-settings.json<cr>
 nnoremap <leader>ve :edit $MYVIMRC<cr>

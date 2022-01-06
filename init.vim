@@ -23,6 +23,7 @@ set nobackup
 set nowritebackup
 set splitright splitbelow
 set confirm
+set title
 set autoread
 set autoindent
 set termguicolors

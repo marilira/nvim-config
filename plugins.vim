@@ -8,5 +8,6 @@ endif
 call plug#begin()
 
 source ~/AppData/Local/nvim/plugins/auto-pairs.vim
+source ~/AppData/Local/nvim/plugins/polyglot.vim
 
 call plug#end()

@@ -9,5 +9,6 @@ call plug#begin()
 
 source ~/AppData/Local/nvim/plugins/auto-pairs.vim
 source ~/AppData/Local/nvim/plugins/coc.vim
+source ~/AppData/Local/nvim/plugins/airline.vim
 
 call plug#end()

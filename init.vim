@@ -38,6 +38,11 @@ filetype indent on
 " -------------------->
 let mapleader="\<space>"
 
+map <c-h> <c-w>h
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+
 nmap od o<esc>k
 nmap oa O<esc>j
 nmap oo A<cr>

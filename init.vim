@@ -22,6 +22,7 @@ set encoding=utf-8
 set nobackup
 set nowritebackup
 set splitright splitbelow
+set confirm
 set autoread
 set autoindent
 set termguicolors

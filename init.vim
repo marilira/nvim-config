@@ -58,10 +58,12 @@ inoremap <a-j> <esc>:m .+1<cr>==
 vnoremap <a-k> :m '<-2<cr>gv=gv
 vnoremap <a-j> :m '>+1<cr>gv=gv
 
+" Create empty line above
+nmap oa O<esc>j
+" Create empty line below
+nmap od o<esc>k
 " Remap o
-nmap oa O<esc>j " Create empty line above
-nmap od o<esc>k " Create empty line below
-nmap oo A<cr> " Actual o
+nmap oo A<cr>
 
 " Remap Esc
 inoremap kj <esc>
@@ -77,4 +79,4 @@ nnoremap <leader>vs :source $MYVIMRC<cr>
 " -------------------->
 " Sources
 " -------------------->
-source ~\AppData\Local\nvim\plugins.vim
+source ~\AppData\Local\nvim\plug.vim

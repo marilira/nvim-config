@@ -38,19 +38,23 @@ filetype indent on
 " -------------------->
 let mapleader="\<space>"
 
-map <c-h> <c-w>h
-map <c-j> <c-w>j
-map <c-k> <c-w>k
-map <c-l> <c-w>l
+map <leader>wk <c-w>k
+map <leader>wl <c-w>l
+map <leader>wj <c-w>j
+map <leader>wh <c-w>h
+"map <c-h> <c-w>h
+"map <c-j> <c-w>j
+"map <c-k> <c-w>k
+"map <c-l> <c-w>l
 
 nmap od o<esc>k
 nmap oa O<esc>j
 nmap oo A<cr>
 
 inoremap kj <esc>
+vnoremap kj <esc>
 
 nnoremap <leader>; A;<esc>
-nnoremap <leader>s :w<cr>:source %<cr>
 nnoremap <leader>vc :edit ~\AppData\Local\nvim\coc-settings.json<cr>
 nnoremap <leader>ve :edit $MYVIMRC<cr>
 nnoremap <leader>vs :source $MYVIMRC<cr>

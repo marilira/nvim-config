@@ -38,14 +38,15 @@ filetype indent on
 " -------------------->
 let mapleader="\<space>"
 
+" Split navigation
 map <leader>wk <c-w>k
 map <leader>wl <c-w>l
 map <leader>wj <c-w>j
 map <leader>wh <c-w>h
-"map <c-h> <c-w>h
-"map <c-j> <c-w>j
 "map <c-k> <c-w>k
 "map <c-l> <c-w>l
+"map <c-j> <c-w>j
+"map <c-h> <c-w>h
 
 " Move lines up and down
 nnoremap <a-k> :m .-2<cr>==
@@ -57,10 +58,12 @@ inoremap <a-j> <esc>:m .+1<cr>==
 vnoremap <a-k> :m '<-2<cr>gv=gv
 vnoremap <a-j> :m '>+1<cr>gv=gv
 
-nmap od o<esc>k
-nmap oa O<esc>j
-nmap oo A<cr>
+" Remap o
+nmap oa O<esc>j " Create empty line above
+nmap od o<esc>k " Create empty line below
+nmap oo A<cr> " Actual o
 
+" Remap Esc
 inoremap kj <esc>
 vnoremap kj <esc>
 

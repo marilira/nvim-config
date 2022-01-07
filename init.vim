@@ -47,6 +47,16 @@ map <leader>wh <c-w>h
 "map <c-k> <c-w>k
 "map <c-l> <c-w>l
 
+" Move lines up and down
+nnoremap <a-k> :m .-2<cr>==
+nnoremap <a-j> :m .+1<cr>==
+
+inoremap <a-k> <esc>:m .-2<cr>==
+inoremap <a-j> <esc>:m .+1<cr>==
+
+vnoremap <a-k> :m '<-2<cr>gv=gv
+vnoremap <a-j> :m '>+1<cr>gv=gv
+
 nmap od o<esc>k
 nmap oa O<esc>j
 nmap oo A<cr>
